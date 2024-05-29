@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TheStore -  Main</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+</head>
+<body>
+    <div id="preloader">
+        <div class="container">
+            <h1 class="preloaderh1" style="z-index: 1000;">TheStore</h1>
+        </div> 
+        <div class="preloaderload"><div class="loader"></div></div>
+        
+    </div>
+    <header>
+        <h1 onclick="home('../index.html')" style="cursor:pointer">TheStore <svg width="28" height="16" viewBox="0 0 28 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M27.7071 8.70711C28.0976 8.31658 28.0976 7.68342 27.7071 7.29289L21.3431 0.928932C20.9526 0.538408 20.3195 0.538408 19.9289 0.928932C19.5384 1.31946 19.5384 1.95262 19.9289 2.34315L25.5858 8L19.9289 13.6569C19.5384 14.0474 19.5384 14.6805 19.9289 15.0711C20.3195 15.4616 20.9526 15.4616 21.3431 15.0711L27.7071 8.70711ZM0 9H27V7L0 7L0 9Z" fill="#04E762"/>
+            </svg> Main</h1>
+        
+            
+        
+       
+        <div class="rightheader">
+            <div class="headersign">
+            <svg width="130" height="70" viewBox="0 0 130 70" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="95" cy="35" r="35" fill="#2D2D2D"/>
+                <path d="M95 5C78.4575 5 65 18.4575 65 35C65 51.5425 78.4575 65 95 65C111.542 65 125 51.5425 125 35C125 18.4575 111.542 5 95 5ZM86.3 55.7475C86.5675 51.16 90.3475 47.5 95 47.5C99.6525 47.5 103.432 51.16 103.7 55.7475C101.022 56.875 98.0825 57.5 95 57.5C91.9175 57.5 88.9775 56.875 86.3 55.7475ZM110.47 51.295C108.37 44.7525 102.23 40 95 40C87.77 40 81.63 44.7525 79.53 51.295C75.2125 47.1925 72.5 41.4125 72.5 35C72.5 22.5925 82.595 12.5 95 12.5C107.405 12.5 117.5 22.5925 117.5 35C117.5 41.4125 114.79 47.1925 110.47 51.295ZM103.747 26.25C103.747 31.0825 99.83 35 94.9975 35C90.165 35 86.2475 31.0825 86.2475 26.25C86.2475 21.4175 90.165 17.5 94.9975 17.5C99.83 17.5 103.747 21.4175 103.747 26.25Z" fill="#04E762"/>
+                <circle cx="25" cy="35" r="25" fill="#2D2D2D"/>
+                <path d="M25 15C21.0444 15 17.1776 16.173 13.8886 18.3706C10.5996 20.5682 8.03617 23.6918 6.52242 27.3463C5.00867 31.0009 4.6126 35.0222 5.3843 38.9018C6.15601 42.7814 8.06082 46.3451 10.8579 49.1421C13.6549 51.9392 17.2186 53.844 21.0982 54.6157C24.9778 55.3874 28.9992 54.9913 32.6537 53.4776C36.3082 51.9638 39.4318 49.4004 41.6294 46.1114C43.827 42.8224 45 38.9556 45 35C44.9943 29.6974 42.8853 24.6137 39.1358 20.8642C35.3863 17.1147 30.3026 15.0057 25 15ZM39.4283 26.6667H34.0517C32.8467 23.8725 31.2587 21.2597 29.3333 18.9033C33.5899 20.0596 37.2179 22.8496 39.4283 26.6667ZM32.5 35C32.488 36.6966 32.2223 38.382 31.7117 40H18.2883C17.7777 38.382 17.512 36.6966 17.5 35C17.512 33.3033 17.7777 31.618 18.2883 30H31.7117C32.2223 31.618 32.488 33.3033 32.5 35ZM19.6233 43.3333H30.3767C28.961 46.1272 27.1502 48.7026 25 50.98C22.8498 48.7026 21.039 46.1272 19.6233 43.3333ZM19.6233 26.6667C21.039 23.8727 22.8498 21.2974 25 19.02C27.1502 21.2974 28.961 23.8727 30.3767 26.6667H19.6233ZM20.6667 18.9033C18.7418 21.26 17.1538 23.8728 15.9483 26.6667H10.5717C12.7821 22.8496 16.4101 20.0596 20.6667 18.9033ZM9.10001 30H14.82C13.9489 33.2764 13.9489 36.7236 14.82 40H9.10001C8.07783 36.745 8.07783 33.255 9.10001 30ZM10.5717 43.3333H15.9483C17.1533 46.1275 18.7413 48.7403 20.6667 51.0967C16.4101 49.9404 12.7821 47.1504 10.5717 43.3333ZM29.3333 51.0967C31.2583 48.74 32.8462 46.1272 34.0517 43.3333H39.4283C37.2179 47.1504 33.5899 49.9404 29.3333 51.0967ZM40.9 40H35.18C36.0511 36.7236 36.0511 33.2764 35.18 30H40.9C41.9222 33.255 41.9222 36.745 40.9 40Z" fill="#04E762"/>
+                </svg></div>
+                <button class="burger-menu" aria-label="Toggle menu">
+                    &#9776;
+                </button>
+        </div>
+             <nav>
+            <a href="catalogue/products.html" class="hoveredm">Store</a>
+            <a href="" class="hoveredm">Track</a>
+            <a href="" class="hoveredm">Manage</a>
+            <a href="" class="hoveredm">More</a>
+        </nav>
+    </header>
+    <main>
+        <div class="divmainone">
+            <article class="mainone">
+                <div class="mainblock">
+                    <h1>Your Title Text Here</h1>
+                    <a href="" class="hoveredm morebtn">More</a>
+                </div>
+        </article>
+         </div><!--<div style="float: left;">
+        <hr class="rounded"></div> -->
+        <h1 class="more"><b class="moregr">New</b> Products</h1>
+        <div class="products">
+            <article onclick="run('product1.html')">
+                <a href="product1.html" style="cursor: pointer;"></a><img src="photo.png" class="prodimg">
+                <h1 class="arth1">Product #1</h1>
+                <p class="artp">Our new product. Blah blah blah. Our most powerful.</p></a>
+                <div class="artadiv"><a href="ecommerce/order.html" class="hoveredm arta">Buy</a></div>
+                
+            </article>
+            <article onclick="run('product1.html')">
+                <a href="product1.html" style="cursor: pointer;"></a><img src="photo.png" class="prodimg">
+                <h1 class="arth1">Product #1</h1>
+                <p class="artp">Our new product. Blah blah blah. Our most powerful.</p></a>
+                <div class="artadiv"><a href="ecommerce/order.html" class="hoveredm arta">Buy</a></div>
+                
+            </article>
+            <article onclick="run('product1.html')">
+                <a href="product1.html" style="cursor: pointer;"></a><img src="photo.png" class="prodimg">
+                <h1 class="arth1">Product #1</h1>
+                <p class="artp">Our new product. Blah blah blah. Our most powerful.</p></a>
+                <div class="artadiv"><a href="ecommerce/order.html" class="hoveredm arta">Buy</a></div>
+                
+            </article>
+            <article onclick="run('product1.html')">
+                <a href="product1" style="cursor: pointer;"></a><img src="photo.png" class="prodimg">
+                <h1 class="arth1">Product #1</h1>
+                <p class="artp">Our new product. Blah blah blah. Our most powerful.</p></a>
+                <div class="artadiv"><a href="ecommerce/order.html" class="hoveredm arta">Buy</a></div>
+                
+            </article>
+            
+        </div><a href="" class="viewall hoveredm">View all ✨</a>
+
+
+        <h1 class="more"><b class="moregr">Our</b> Bestsellers</h1>
+        <div class="products">
+            <article onclick="run('product1.html')">
+                <a href="product1.html" style="cursor: pointer;"></a><img src="photo.png" class="prodimg">
+                <h1 class="arth1">Product #1</h1>
+                <p class="artp">This one never gets old. Good as new every day.</p></a>
+                <div class="artadiv"><a href="" class="hoveredm arta">Buy</a></div>
+                
+            </article>
+            <article onclick="run('product1.html')">
+                <a href="product1.html" style="cursor: pointer;"></a><img src="photo.png" class="prodimg">
+                <h1 class="arth1">Product #1</h1>
+                <p class="artp">This one never gets old. Good as new every day.</p></a>
+                <div class="artadiv"><a href="ecommerce/order.html" class="hoveredm arta">Buy</a></div>
+                
+            </article>
+            <article onclick="run('product1.html')">
+                <a href="product1.html" style="cursor: pointer;"></a><img src="photo.png" class="prodimg">
+                <h1 class="arth1">Product #1</h1>
+                <p class="artp">This one never gets old. Good as new every day.</p></a>
+                <div class="artadiv"><a href="ecommerce/order.html" class="hoveredm arta">Buy</a></div>
+                
+            </article>
+            <article onclick="run('product1.html')">
+                <a href="product1.html" style="cursor: pointer;"></a><img src="photo.png" class="prodimg">
+                <h1 class="arth1">Product #1</h1>
+                <p class="artp">This one never gets old. Good as new every day.</p></a>
+                <div class="artadiv"><a href="ecommerce/order.html" class="hoveredm arta">Buy</a></div>
+                
+            </article>
+            
+        </div><a href="" class="viewall hoveredm">View all ✨</a>
+
+
+        
+        </div>
+        
+
+
+
+        <footer>
+            <div class="footerdiv"><div class="footernav"><h1 class="footernavh1"> <b class="moregr">-</b>  Store</h1>
+            <ul>
+                <li><a href="" class="footera">Element</a></li>
+                <li><a href="" class="footera">Element</a></li>
+                <li><a href="" class="footera">Element</a></li>
+                <li><a href="" class="footera">Element</a></li>
+                <li><a href="" class="footera">Element</a></li>
+                <li><a href="" class="footera">Element</a></li>
+            </ul></div>
+            
+            <div class="footernav"><h1 class="footernavh1"> <b class="moregr">-</b>  Track</h1>
+                <ul>
+                    <li><a href="" class="footera">Element</a></li>
+                    <li><a href="" class="footera">Element</a></li>
+                    <li><a href="" class="footera">Element</a></li>
+                    <li><a href="" class="footera">Element</a></li>
+                    <li><a href="" class="footera">Element</a></li>
+                    <li><a href="" class="footera">Element</a></li>
+                </ul></div>
+            <div class="footernav"><h1 class="footernavh1"> <b class="moregr">-</b>  Manage</h1>
+                <ul>
+                    <li><a href="" class="footera">Element</a></li>
+                    <li><a href="" class="footera">Element</a></li>
+                    <li><a href="" class="footera">Element</a></li>
+                    <li><a href="" class="footera">Element</a></li>
+                    <li><a href="" class="footera">Element</a></li>
+                    <li><a href="" class="footera">Element</a></li>
+                </ul></div>
+            <div class="footernav"><h1 class="footernavh1"> <b class="moregr">-</b>  More</h1>
+                <ul>
+                    <li><a href="" class="footera">Element</a></li>
+                    <li><a href="" class="footera">Element</a></li>
+                    <li><a href="" class="footera">Element</a></li>
+                    <li><a href="" class="footera">Element</a></li>
+                    <li><a href="" class="footera">Element</a></li>
+                    <li><a href="" class="footera">Element</a></li>
+                </ul></div></div>
+            
+                <div class="footerup scroll" onclick="up()" style="cursor: pointer;">
+                    <a class="scroll" href=""><a class="scroll" href=""><svg width="15" height="23" viewBox="0 0 15 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M6.5 21.5C6.5 22.0523 6.94772 22.5 7.5 22.5C8.05228 22.5 8.5 22.0523 8.5 21.5H6.5ZM8.20711 0.792893C7.81658 0.402369 7.18342 0.402369 6.79289 0.792893L0.428932 7.15685C0.0384079 7.54738 0.0384079 8.18054 0.428932 8.57107C0.819456 8.96159 1.45262 8.96159 1.84315 8.57107L7.5 2.91421L13.1569 8.57107C13.5474 8.96159 14.1805 8.96159 14.5711 8.57107C14.9616 8.18054 14.9616 7.54738 14.5711 7.15685L8.20711 0.792893ZM8.5 21.5L8.5 1.5H6.5L6.5 21.5H8.5Z" fill="#000"/>
+                        </svg>
+                        
+                        </a></a>
+                </div>
+                <div>
+            <div class="footerh1end">
+                
+                <h1 class="footerh1" ><h1 class="footerh1" style="margin-right: 20px;">TheStore <svg width="29" height="16" viewBox="0 0 29 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M1 7C0.447715 7 0 7.44772 0 8C0 8.55228 0.447715 9 1 9V7ZM28.7071 8.70711C29.0976 8.31658 29.0976 7.68342 28.7071 7.29289L22.3431 0.928932C21.9526 0.538408 21.3195 0.538408 20.9289 0.928932C20.5384 1.31946 20.5384 1.95262 20.9289 2.34315L26.5858 8L20.9289 13.6569C20.5384 14.0474 20.5384 14.6805 20.9289 15.0711C21.3195 15.4616 21.9526 15.4616 22.3431 15.0711L28.7071 8.70711ZM1 9H28V7L1 7V9Z" fill="#04E762"/>
+                    </svg>
+                     Main</h1></h1></div>
+                <h2 class="footerh1end footerinfo">All rights reserved • 2024</h2>
+                <h2 class="footerh1end footerinfo">Project ThatGreen</h2></div>
+        </footer>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
